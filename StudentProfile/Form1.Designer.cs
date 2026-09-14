@@ -35,20 +35,20 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Arial Black", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Arial Black", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(41, 48);
             label1.Name = "label1";
-            label1.Size = new Size(470, 40);
+            label1.Size = new Size(333, 28);
             label1.TabIndex = 0;
             label1.Text = "Update student profile output";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Arial Narrow", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Font = new Font("Arial Narrow", 13.8F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             label2.Location = new Point(41, 100);
             label2.Name = "label2";
-            label2.Size = new Size(352, 33);
+            label2.Size = new Size(281, 27);
             label2.TabIndex = 1;
             label2.Text = "Contact Number: 09171234567";
             // 
