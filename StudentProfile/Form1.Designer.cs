@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             label1 = new Label();
+            label2 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -41,11 +42,22 @@
             label1.TabIndex = 0;
             label1.Text = "Student Profile — Johnrich Daniel Legaspi";
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Arial Black", 15F, FontStyle.Bold);
+            label2.Location = new Point(41, 104);
+            label2.Name = "label2";
+            label2.Size = new Size(655, 36);
+            label2.TabIndex = 1;
+            label2.Text = "Student Email — johnrichlegaspi75@gmail.com";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(758, 152);
+            ClientSize = new Size(758, 207);
+            Controls.Add(label2);
             Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
@@ -56,5 +68,6 @@
         #endregion
 
         private Label label1;
+        private Label label2;
     }
 }
